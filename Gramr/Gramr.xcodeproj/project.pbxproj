@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		17697E8639D6C43E69DF5B65 /* Pods_Gramr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F19FB2F379DD085B8AA884 /* Pods_Gramr.framework */; };
+		5417816B1E70CE2200B72C7A /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417816A1E70CE2200B72C7A /* TimelineViewController.swift */; };
+		5417816D1E70D6B500B72C7A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417816C1E70D6B500B72C7A /* User.swift */; };
 		54915A7D1E6E39A600C6CDCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54915A7C1E6E39A600C6CDCC /* LoginViewController.swift */; };
 		54BCA2E51E6E2D19003552D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BCA2E41E6E2D19003552D6 /* AppDelegate.swift */; };
 		54BCA2EA1E6E2D19003552D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BCA2E81E6E2D19003552D6 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5417816A1E70CE2200B72C7A /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		5417816C1E70D6B500B72C7A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		54915A7C1E6E39A600C6CDCC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		54BCA2E11E6E2D18003552D6 /* Gramr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gramr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54BCA2E41E6E2D19003552D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,9 +82,11 @@
 		54BCA2E31E6E2D18003552D6 /* Gramr */ = {
 			isa = PBXGroup;
 			children = (
+				5417816C1E70D6B500B72C7A /* User.swift */,
 				54915A7C1E6E39A600C6CDCC /* LoginViewController.swift */,
 				54BCA2E41E6E2D19003552D6 /* AppDelegate.swift */,
 				54BCA2E81E6E2D19003552D6 /* Main.storyboard */,
+				5417816A1E70CE2200B72C7A /* TimelineViewController.swift */,
 				54BCA2EB1E6E2D19003552D6 /* Assets.xcassets */,
 				54BCA2ED1E6E2D19003552D6 /* LaunchScreen.storyboard */,
 				54BCA2F01E6E2D19003552D6 /* Info.plist */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5417816D1E70D6B500B72C7A /* User.swift in Sources */,
 				54915A7D1E6E39A600C6CDCC /* LoginViewController.swift in Sources */,
 				54BCA2E51E6E2D19003552D6 /* AppDelegate.swift in Sources */,
+				5417816B1E70CE2200B72C7A /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,6 +29,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
         }))
         
+        // check if user is logged in
+        if PFUser.current() != nil {
+            
+            // if there is a logged in user then load the home view controller
+            
+            print("User Already Logged In!")
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let vc = storyboard.instantiateViewController(withIdentifier: "loggedIn")
+            
+            self.window?.rootViewController = vc
+            
+        }
+        
+        // Check if User has logged out
+        NotificationCenter.default.addObserver(forName: User.logOutNotification.name, object: nil, queue: OperationQueue.main) { (notification: Notification) in
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let vc = storyboard.instantiateInitialViewController()
+            
+            self.window?.rootViewController = vc
+            
+        }
+        
         
         
         return true
