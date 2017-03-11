@@ -30,11 +30,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }))
         
         // check if user is logged in
-        if PFUser.current() != nil {
+        if let user = PFUser.current() {
             
             // if there is a logged in user then load the home view controller
             
-            print("User Already Logged In!")
+            print("User, \(user.username!), Already Logged In!")
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             
