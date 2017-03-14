@@ -15,6 +15,9 @@
 		54BCA2EA1E6E2D19003552D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BCA2E81E6E2D19003552D6 /* Main.storyboard */; };
 		54BCA2EC1E6E2D19003552D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54BCA2EB1E6E2D19003552D6 /* Assets.xcassets */; };
 		54BCA2EF1E6E2D19003552D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54BCA2ED1E6E2D19003552D6 /* LaunchScreen.storyboard */; };
+		54D8E2CC1E77676900F50BC3 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D8E2CB1E77676900F50BC3 /* PostCell.swift */; };
+		54E9385E1E7498E3005D71AC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E9385D1E7498E3005D71AC /* Post.swift */; };
+		54E938601E74A901005D71AC /* AddPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E9385F1E74A901005D71AC /* AddPhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		54BCA2EB1E6E2D19003552D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54BCA2EE1E6E2D19003552D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54BCA2F01E6E2D19003552D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D8E2CB1E77676900F50BC3 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		54E9385D1E7498E3005D71AC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		54E9385F1E74A901005D71AC /* AddPhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoTableViewController.swift; sourceTree = "<group>"; };
 		B49E881E0551E775E6A69117 /* Pods-Gramr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gramr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gramr/Pods-Gramr.debug.xcconfig"; sourceTree = "<group>"; };
 		B846B7A737CA47E44FC40187 /* Pods-Gramr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gramr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gramr/Pods-Gramr.release.xcconfig"; sourceTree = "<group>"; };
 		E2F19FB2F379DD085B8AA884 /* Pods_Gramr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gramr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,10 +88,13 @@
 		54BCA2E31E6E2D18003552D6 /* Gramr */ = {
 			isa = PBXGroup;
 			children = (
+				54E9385D1E7498E3005D71AC /* Post.swift */,
 				5417816C1E70D6B500B72C7A /* User.swift */,
 				54915A7C1E6E39A600C6CDCC /* LoginViewController.swift */,
 				54BCA2E41E6E2D19003552D6 /* AppDelegate.swift */,
 				54BCA2E81E6E2D19003552D6 /* Main.storyboard */,
+				54D8E2CB1E77676900F50BC3 /* PostCell.swift */,
+				54E9385F1E74A901005D71AC /* AddPhotoTableViewController.swift */,
 				5417816A1E70CE2200B72C7A /* TimelineViewController.swift */,
 				54BCA2EB1E6E2D19003552D6 /* Assets.xcassets */,
 				54BCA2ED1E6E2D19003552D6 /* LaunchScreen.storyboard */,
@@ -218,10 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D8E2CC1E77676900F50BC3 /* PostCell.swift in Sources */,
+				54E938601E74A901005D71AC /* AddPhotoTableViewController.swift in Sources */,
 				5417816D1E70D6B500B72C7A /* User.swift in Sources */,
 				54915A7D1E6E39A600C6CDCC /* LoginViewController.swift in Sources */,
 				54BCA2E51E6E2D19003552D6 /* AppDelegate.swift in Sources */,
 				5417816B1E70CE2200B72C7A /* TimelineViewController.swift in Sources */,
+				54E9385E1E7498E3005D71AC /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

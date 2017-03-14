@@ -7,5 +7,6 @@ target 'Gramr' do
 
   # Pods for Gramr
   pod 'Parse'
+  pod 'ParseUI'
 
 end

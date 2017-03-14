@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.initialize(with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) in
             
             configuration.applicationId = "Gramr"
-            configuration.clientKey = nil // set to nil assuming you have not set clientKey
+            configuration.clientKey = "myMasterKeyBringsAllTheBoysToTheYard" // set to nil assuming you have not set clientKey
             configuration.server = "https://blooming-anchorage-96336.herokuapp.com/parse"
             
         }))

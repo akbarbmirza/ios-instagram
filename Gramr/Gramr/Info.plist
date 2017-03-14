@@ -20,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires the Camera to take photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app requires the Photo Library if you want to add photos you've already taken</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
